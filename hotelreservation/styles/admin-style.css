@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../images/dashboard.jpg);
+	background-size: cover;
+}
+.form-design{
+	width: 430px;
+	margin: 130px auto;
+	position: relative;
+}
+.form-design .header{
+	font-size: 28px;
+	font-weight: bold;
+	font-family: oswald;
+	letter-spacing: 3px;
+	color: white;
+	padding: 25px 0 30px 25px;
+	background: #1e1e1e;
+	border-bottom: 1px solid #1e1e1e;
+	border-radius: 5px 5px 0 0;
+}
+.form-design form{
+	position: absulote;
+	background: white;
+	width: 100%;
+	padding: 50px 10px 0 30px;
+	box-sizing: border-box;
+	border: 1px solid #1e1e1e;
+	border-radius: 0 0 5px 5px;
+}
+form input{
+	height: 50px;
+	width: 90%;
+	padding: 0 10px;
+	border-radius: 3px;
+	border: 1px solid #1e1e1e;
+	font-size: 18px;
+	outline: none;
+}
+form input[type=password]{
+	margin-top: 20px;
+}
+form i{
+	position: absolute;
+	color: gray;
+	font-size: 20px;
+	margin: 15px 0 0 -45px;
+}
+i.fa-eye-slash{
+	margin-top: 35px;
+	color: #1e1e1e;
+	cursor: pointer;
+}
+form input[type=submit]{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 130px;
+	height: 45px;
+	cursor: pointer;
+	color: white;
+	background-color: #1e1e1e;
+	line-height: 45px;
+	transition: .3s;
+}
+form input[type=submit]:hover{
+	background: gray;
+	border: gray;
+}
+form a{
+	position: absolute;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	left: 250px;
+	top: 312px;
+	padding: 12px 20px;
+	background: #1e1e1e;
+	border-radius: 3px;
+	font-family: arial;
+	text-align: center;
+	width: 100px;
+	transition: .3s;
+	
+
+}
+form a:hover{
+	background: gray;
+
+}
+.error{
+	color: red;
+	text-align: center;
+	background: rgba(255, 0, 0, .08);
+	width: 500px;
+	border: 1px solid red;
+	border-radius: 4px;
+	margin-left: 425px;
+	position: absolute;
+	bottom: 550px;
+	padding: 10px;
+	font-family: arial;
+	
+	
+}
